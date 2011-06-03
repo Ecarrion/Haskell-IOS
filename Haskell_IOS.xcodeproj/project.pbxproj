@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A5771A1398A3BA005E5E53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A577191398A3BA005E5E53 /* UIKit.framework */; };
+		26A5771C1398A3BA005E5E53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A5771B1398A3BA005E5E53 /* Foundation.framework */; };
+		26A5771E1398A3BA005E5E53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A5771D1398A3BA005E5E53 /* CoreGraphics.framework */; };
+		26A577241398A3BA005E5E53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26A577221398A3BA005E5E53 /* InfoPlist.strings */; };
+		26A577271398A3BB005E5E53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A577261398A3BB005E5E53 /* main.m */; };
+		26A5772A1398A3BB005E5E53 /* Haskell_IOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A577291398A3BB005E5E53 /* Haskell_IOSAppDelegate.m */; };
+		26A5772D1398A3BB005E5E53 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A5772B1398A3BB005E5E53 /* MainWindow.xib */; };
+		26A577301398A3BB005E5E53 /* Haskell_IOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A5772F1398A3BB005E5E53 /* Haskell_IOSViewController.m */; };
+		26A577331398A3BB005E5E53 /* Haskell_IOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A577311398A3BB005E5E53 /* Haskell_IOSViewController.xib */; };
+		26A577491398A5D2005E5E53 /* Haskell_IOS.cabal in Resources */ = {isa = PBXBuildFile; fileRef = 26A577471398A5D2005E5E53 /* Haskell_IOS.cabal */; };
+		26A5774A1398A5D2005E5E53 /* Main.hs in Resources */ = {isa = PBXBuildFile; fileRef = 26A577481398A5D2005E5E53 /* Main.hs */; };
+		26A5774C1398A6C9005E5E53 /* libHaskell_IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A5774B1398A6C9005E5E53 /* libHaskell_IOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26A577451398A53D005E5E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A5770C1398A3BA005E5E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A5773D1398A3E1005E5E53;
+			remoteInfo = Haskell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26A577151398A3BA005E5E53 /* Haskell_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haskell_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A577191398A3BA005E5E53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26A5771B1398A3BA005E5E53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26A5771D1398A3BA005E5E53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26A577211398A3BA005E5E53 /* Haskell_IOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Haskell_IOS-Info.plist"; sourceTree = "<group>"; };
+		26A577231398A3BA005E5E53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26A577251398A3BA005E5E53 /* Haskell_IOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Haskell_IOS-Prefix.pch"; sourceTree = "<group>"; };
+		26A577261398A3BB005E5E53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26A577281398A3BB005E5E53 /* Haskell_IOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Haskell_IOSAppDelegate.h; sourceTree = "<group>"; };
+		26A577291398A3BB005E5E53 /* Haskell_IOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Haskell_IOSAppDelegate.m; sourceTree = "<group>"; };
+		26A5772C1398A3BB005E5E53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		26A5772E1398A3BB005E5E53 /* Haskell_IOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Haskell_IOSViewController.h; sourceTree = "<group>"; };
+		26A5772F1398A3BB005E5E53 /* Haskell_IOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Haskell_IOSViewController.m; sourceTree = "<group>"; };
+		26A577321398A3BB005E5E53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Haskell_IOSViewController.xib; sourceTree = "<group>"; };
+		26A577471398A5D2005E5E53 /* Haskell_IOS.cabal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Haskell_IOS.cabal; sourceTree = "<group>"; };
+		26A577481398A5D2005E5E53 /* Main.hs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Main.hs; sourceTree = "<group>"; };
+		26A5774B1398A6C9005E5E53 /* libHaskell_IOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHaskell_IOS.a; path = "DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/dist/build/Haskell_IOS/libHaskell_IOS.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A577121398A3BA005E5E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A5771A1398A3BA005E5E53 /* UIKit.framework in Frameworks */,
+				26A5771C1398A3BA005E5E53 /* Foundation.framework in Frameworks */,
+				26A5771E1398A3BA005E5E53 /* CoreGraphics.framework in Frameworks */,
+				26A5774C1398A6C9005E5E53 /* libHaskell_IOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A5770A1398A3BA005E5E53 = {
+			isa = PBXGroup;
+			children = (
+				26A5774B1398A6C9005E5E53 /* libHaskell_IOS.a */,
+				26A577471398A5D2005E5E53 /* Haskell_IOS.cabal */,
+				26A577481398A5D2005E5E53 /* Main.hs */,
+				26A5771F1398A3BA005E5E53 /* Haskell_IOS */,
+				26A577181398A3BA005E5E53 /* Frameworks */,
+				26A577161398A3BA005E5E53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26A577161398A3BA005E5E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A577151398A3BA005E5E53 /* Haskell_IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A577181398A3BA005E5E53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26A577191398A3BA005E5E53 /* UIKit.framework */,
+				26A5771B1398A3BA005E5E53 /* Foundation.framework */,
+				26A5771D1398A3BA005E5E53 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26A5771F1398A3BA005E5E53 /* Haskell_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				26A577281398A3BB005E5E53 /* Haskell_IOSAppDelegate.h */,
+				26A577291398A3BB005E5E53 /* Haskell_IOSAppDelegate.m */,
+				26A5772B1398A3BB005E5E53 /* MainWindow.xib */,
+				26A5772E1398A3BB005E5E53 /* Haskell_IOSViewController.h */,
+				26A5772F1398A3BB005E5E53 /* Haskell_IOSViewController.m */,
+				26A577311398A3BB005E5E53 /* Haskell_IOSViewController.xib */,
+				26A577201398A3BA005E5E53 /* Supporting Files */,
+			);
+			path = Haskell_IOS;
+			sourceTree = "<group>";
+		};
+		26A577201398A3BA005E5E53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26A577211398A3BA005E5E53 /* Haskell_IOS-Info.plist */,
+				26A577221398A3BA005E5E53 /* InfoPlist.strings */,
+				26A577251398A3BA005E5E53 /* Haskell_IOS-Prefix.pch */,
+				26A577261398A3BB005E5E53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		26A5773D1398A3E1005E5E53 /* Haskell */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 26A5773E1398A3E2005E5E53 /* Build configuration list for PBXLegacyTarget "Haskell" */;
+			buildPhases = (
+			);
+			buildToolPath = "/opt/iphone/bin/build-iphone-haskell.sh";
+			dependencies = (
+			);
+			name = Haskell;
+			passBuildSettingsInEnvironment = 1;
+			productName = Haskell;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		26A577141398A3BA005E5E53 /* Haskell_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A577361398A3BB005E5E53 /* Build configuration list for PBXNativeTarget "Haskell_IOS" */;
+			buildPhases = (
+				26A577111398A3BA005E5E53 /* Sources */,
+				26A577121398A3BA005E5E53 /* Frameworks */,
+				26A577131398A3BA005E5E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A577461398A53D005E5E53 /* PBXTargetDependency */,
+			);
+			name = Haskell_IOS;
+			productName = Haskell_IOS;
+			productReference = 26A577151398A3BA005E5E53 /* Haskell_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A5770C1398A3BA005E5E53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kogi Mobile";
+			};
+			buildConfigurationList = 26A5770F1398A3BA005E5E53 /* Build configuration list for PBXProject "Haskell_IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26A5770A1398A3BA005E5E53;
+			productRefGroup = 26A577161398A3BA005E5E53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A577141398A3BA005E5E53 /* Haskell_IOS */,
+				26A5773D1398A3E1005E5E53 /* Haskell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A577131398A3BA005E5E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A577241398A3BA005E5E53 /* InfoPlist.strings in Resources */,
+				26A5772D1398A3BB005E5E53 /* MainWindow.xib in Resources */,
+				26A577331398A3BB005E5E53 /* Haskell_IOSViewController.xib in Resources */,
+				26A577491398A5D2005E5E53 /* Haskell_IOS.cabal in Resources */,
+				26A5774A1398A5D2005E5E53 /* Main.hs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A577111398A3BA005E5E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A577271398A3BB005E5E53 /* main.m in Sources */,
+				26A5772A1398A3BB005E5E53 /* Haskell_IOSAppDelegate.m in Sources */,
+				26A577301398A3BB005E5E53 /* Haskell_IOSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26A577461398A53D005E5E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A5773D1398A3E1005E5E53 /* Haskell */;
+			targetProxy = 26A577451398A53D005E5E53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26A577221398A3BA005E5E53 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A577231398A3BA005E5E53 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26A5772B1398A3BB005E5E53 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A5772C1398A3BB005E5E53 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		26A577311398A3BB005E5E53 /* Haskell_IOSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A577321398A3BB005E5E53 /* en */,
+			);
+			name = Haskell_IOSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26A577341398A3BB005E5E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26A577351398A3BB005E5E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		26A577371398A3BB005E5E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Haskell_IOS/Haskell_IOS-Prefix.pch";
+				INFOPLIST_FILE = "Haskell_IOS/Haskell_IOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/dist/build/Haskell_IOS\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26A577381398A3BB005E5E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Haskell_IOS/Haskell_IOS-Prefix.pch";
+				INFOPLIST_FILE = "Haskell_IOS/Haskell_IOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/dist/build/Haskell_IOS\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26A5773F1398A3E2005E5E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26A577401398A3E2005E5E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A5770F1398A3BA005E5E53 /* Build configuration list for PBXProject "Haskell_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A577341398A3BB005E5E53 /* Debug */,
+				26A577351398A3BB005E5E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A577361398A3BB005E5E53 /* Build configuration list for PBXNativeTarget "Haskell_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A577371398A3BB005E5E53 /* Debug */,
+				26A577381398A3BB005E5E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26A5773E1398A3E2005E5E53 /* Build configuration list for PBXLegacyTarget "Haskell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A5773F1398A3E2005E5E53 /* Debug */,
+				26A577401398A3E2005E5E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A5770C1398A3BA005E5E53 /* Project object */;
+}

@@ -1,0 +1,15 @@
+Name: HaskellIOS
+Version: 0.1
+Synopsis: iPhone app in haskell
+Description: iPhone app in haskell
+Build-type: Simple
+Cabal-Version: >= 1.6
+
+Executable Haskell_IOS
+    Main-Is: Main.hs
+    Frameworks:
+        Foundation
+        UIKit
+        CoreGraphics
+    Build-Depends:
+        base >= 4

@@ -1,0 +1,336 @@
+THaskell_IOS
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Info.plist Haskell_IOS/Haskell_IOS-Info.plist
+cProcessPCH /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/PrecompiledHeaders/Haskell_IOS-Prefix-dxyzngjbzftjhigrnanfnhzulykt/Haskell_IOS-Prefix.pch.gch Haskell_IOS/Haskell_IOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSAppDelegate.o /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/main.o /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSViewController.o /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS normal i386
+cGenerateDSYMFile /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app.dSYM /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS
+cCopyStringsFile /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj/InfoPlist.strings Haskell_IOS/en.lproj/InfoPlist.strings
+cCompileXIB /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/MainWindow.xib
+cCompileXIB /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/Haskell_IOSViewController.xib
+cCpResource Haskell_IOS.cabal DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS.cabal
+cCpResource Main.hs DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Main.hs
+cTouch /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app
+
+N/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOS.LinkFileList
+c000000004DE86F0F0000000000000285
+t1307078415
+s645
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSAppDelegate.o
+t1307080747
+s48072
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSViewController.o
+t1307081124
+s41748
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/main.o
+t1307078832
+s4156
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/PrecompiledHeaders/Haskell_IOS-Prefix-dxyzngjbzftjhigrnanfnhzulykt/Haskell_IOS-Prefix.pch.gch
+t1307078416
+s12287472
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app
+t1307081125
+s272
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app.dSYM
+t1307081125
+s102
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS
+t1307081125
+s5673648
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS.cabal
+t1307078416
+s289
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Info.plist
+t1307078415
+s790
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Main.hs
+t1307078834
+s461
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/PkgInfo
+t1307078415
+s8
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj/Haskell_IOSViewController.nib
+t1307081090
+s5080
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj/InfoPlist.strings
+t1307078416
+s42
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj/MainWindow.nib
+t1307078416
+s1673
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/dist/build/Haskell_IOS/libHaskell_IOS.a
+c000000004DE870B00000000000A4D288
+t1307078832
+s10801800
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS.cabal
+c000000004DE86E240000000000000121
+t1307078180
+s289
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOS-Prefix.pch
+c000000004DE86C3A0000000000000148
+t1307077690
+s328
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSAppDelegate.h
+c000000004DE86C3B00000000000001B0
+t1307077691
+s432
+i<UIKit/UIKit.h>
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSAppDelegate.m
+c000000004DE875180000000000000977
+t1307079960
+s2423
+i"Haskell_IOSAppDelegate.h"
+i"Haskell_IOSViewController.h"
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSViewController.h
+c000000004DE878290000000000000207
+t1307080745
+s519
+i<UIKit/UIKit.h>
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSViewController.m
+c000000004DE879C00000000000000577
+t1307081152
+s1399
+i"Haskell_IOSViewController.h"
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/Haskell_IOSViewController.xib
+c000000004DE8797F000000000000537C
+t1307081087
+s21372
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/InfoPlist.strings
+c000000004DE86C3A000000000000002D
+t1307077690
+s45
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/MainWindow.xib
+c000000004DE86C3B0000000000004E49
+t1307077691
+s20041
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/main.m
+c000000004DE870AE0000000000000274
+t1307078830
+s628
+i<UIKit/UIKit.h>
+
+N/Users/ecarrion/Programming/IOS/Haskell_IOS/Main.hs
+c000000004DE870AE00000000000001CD
+t1307078830
+s461
+
+NHaskell_IOS/Haskell_IOS-Info.plist
+c000000004DE86C3A00000000000004A0
+t1307077690
+s1184
+
+CBuild AST from /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSAppDelegate.m
+r0
+
+CBuild AST from /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSViewController.m
+r0
+
+CBuild AST from /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0e31f641b198b341^b533f841b198b341^---0#1#0#--18"Check dependencies
+
+CCompileC DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSAppDelegate.o /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s328773547.591462
+e328773547.729308
+r1
+xCompileC
+xDerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSAppDelegate.o
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSAppDelegate.m908697abaf98b341^5ad9baabaf98b341^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSAppDelegate.m0000000000000000^3021"CompileC DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSAppDelegate.o Haskell_IOS/Haskell_IOSAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-generated-files.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-own-target-headers.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-all-target-headers.hmap -iquote /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-project-headers.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/include -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/DerivedSources/i386 -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/DerivedSources -F/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator -include /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/PrecompiledHeaders/Haskell_IOS-Prefix-dxyzngjbzftjhigrnanfnhzulykt/Haskell_IOS-Prefix.pch -c /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSAppDelegate.m -o /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSAppDelegate.o
+
+CCompileC DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSViewController.o /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s328773953.980029
+e328773954.071255
+r1
+xCompileC
+xDerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSViewController.o
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSViewController.m8ffffa41b198b341^c53d1242b198b341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSViewController.m0000000000000000^3033"CompileC DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSViewController.o Haskell_IOS/Haskell_IOSViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-generated-files.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-own-target-headers.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-all-target-headers.hmap -iquote /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-project-headers.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/include -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/DerivedSources/i386 -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/DerivedSources -F/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator -include /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/PrecompiledHeaders/Haskell_IOS-Prefix-dxyzngjbzftjhigrnanfnhzulykt/Haskell_IOS-Prefix.pch -c /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOSViewController.m -o /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOSViewController.o
+
+CCompileC DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/main.o /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s328771632.796579
+e328771632.853713
+r1
+xCompileC
+xDerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/main.o
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/main.m9e06cc30a898b341^488cda30a898b341^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/main.m0000000000000000^2949"CompileC DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/main.o Haskell_IOS/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-generated-files.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-own-target-headers.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-all-target-headers.hmap -iquote /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-project-headers.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/include -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/DerivedSources/i386 -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/DerivedSources -F/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator -include /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/PrecompiledHeaders/Haskell_IOS-Prefix-dxyzngjbzftjhigrnanfnhzulykt/Haskell_IOS-Prefix.pch -c /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/main.m -o /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/main.o
+
+CCompileXIB /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/Haskell_IOSViewController.xib
+s328773889.734210
+e328773890.538880
+r1
+xCompileXIB
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/Haskell_IOSViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compiling /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/Haskell_IOSViewController.xibd106bc01b198b341^90f48902b198b341^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/Haskell_IOSViewController.xib0000000000000000^827"CompileXIB Haskell_IOS/en.lproj/Haskell_IOSViewController.xib    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/XCode401/usr/bin/..    /Developer/XCode401/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj/Haskell_IOSViewController.nib /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/Haskell_IOSViewController.xib --sdk /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/MainWindow.xib
+s328771216.577890
+e328771216.989654
+r1
+xCompileXIB
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compiling /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/MainWindow.xib3f019490a698b341^4b5afd90a698b341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/MainWindow.xib0000000000000000^782"CompileXIB Haskell_IOS/en.lproj/MainWindow.xib    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/XCode401/usr/bin/..    /Developer/XCode401/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj/MainWindow.nib /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/MainWindow.xib --sdk /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCopyStringsFile /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj/InfoPlist.strings Haskell_IOS/en.lproj/InfoPlist.strings
+s328771216.577722
+e328771216.581143
+r1
+xCopyStringsFile
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj/InfoPlist.strings
+xHaskell_IOS/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy Haskell_IOS/en.lproj/InfoPlist.stringsf8f99390a698b341^c5ca9490a698b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/en.lproj/InfoPlist.strings0000000000000000^679"CopyStringsFile DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj/InfoPlist.strings Haskell_IOS/en.lproj/InfoPlist.strings    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/en.lproj -- Haskell_IOS/en.lproj/InfoPlist.strings
+
+CCpResource Haskell_IOS.cabal DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS.cabal
+s328771216.949232
+e328771216.952217
+r1
+xCpResource
+xHaskell_IOS.cabal
+xDerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS.cabal
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Copy DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS.cabal8b1bf390a698b341^dfc5f390a698b341^---0#0#0#-19%DVTDocumentLocation2@183"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS.cabal0000204d2205f041^664"CpResource Haskell_IOS.cabal DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS.cabal    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS.cabal /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app
+
+CCpResource Main.hs DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Main.hs
+s328771634.017034
+e328771634.019953
+r1
+xCpResource
+xMain.hs
+xDerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Main.hs
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Main.hsc26a0432a898b341^471d0532a898b341^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Main.hs0000000000000000^634"CpResource Main.hs DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Main.hs    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ecarrion/Programming/IOS/Haskell_IOS/Main.hs /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app
+
+CGenerateDSYMFile /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app.dSYM /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS
+s328773954.699530
+e328773954.864707
+r1
+xGenerateDSYMFile
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app.dSYM
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"Generating /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app.dSYMc329b342b198b341^965cdd42b198b341^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app.dSYM/0000000000000000^807"GenerateDSYMFile DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app.dSYM DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode401/usr/bin/dsymutil /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS -o /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app.dSYM
+
+CLd /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS normal i386
+s328773954.071447
+e328773954.699310
+r1
+xLd
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS
+xnormal
+xi386
+old: warning: could not create compact unwind for .LFB3: non-standard register 5 being saved in prolog
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Link /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS07611242b198b341^2907b342b198b341^-102"ld: warning: could not create compact unwind for .LFB3: non-standard register 5 being saved in prolog1(21%IDEActivityLogMessage2@88"Could not create compact unwind for .LFB3: non-standard register 5 being saved in prolog-328773954#0#102#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1545"Ld DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS normal i386    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator -L/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/dist/build/Haskell_IOS -F/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator -filelist /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Objects-normal/i386/Haskell_IOS.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -lHaskell_IOS -o /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Haskell_IOS
+
+CProcessInfoPlistFile /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Info.plist Haskell_IOS/Haskell_IOS-Info.plist
+s328771215.737340
+e328771215.741408
+r1
+xProcessInfoPlistFile
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Info.plist
+xHaskell_IOS/Haskell_IOS-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process Haskell_IOS/Haskell_IOS-Info.plist35d4bc8fa698b341^07cebd8fa698b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOS-Info.plist0000000000000000^833"ProcessInfoPlistFile DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Info.plist Haskell_IOS/Haskell_IOS-Info.plist    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Haskell_IOS/Haskell_IOS-Info.plist -genpkginfo /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app/Info.plist
+
+CProcessPCH /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/PrecompiledHeaders/Haskell_IOS-Prefix-dxyzngjbzftjhigrnanfnhzulykt/Haskell_IOS-Prefix.pch.gch Haskell_IOS/Haskell_IOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s328771215.742936
+e328771216.358220
+r1
+xProcessPCH
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/PrecompiledHeaders/Haskell_IOS-Prefix-dxyzngjbzftjhigrnanfnhzulykt/Haskell_IOS-Prefix.pch.gch
+xHaskell_IOS/Haskell_IOS-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile Haskell_IOS/Haskell_IOS-Prefix.pch0d50be8fa698b341^e5b45b90a698b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOS-Prefix.pch0000000000000000^2778"ProcessPCH DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/PrecompiledHeaders/Haskell_IOS-Prefix-dxyzngjbzftjhigrnanfnhzulykt/Haskell_IOS-Prefix.pch.gch Haskell_IOS/Haskell_IOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-generated-files.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-own-target-headers.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-all-target-headers.hmap -iquote /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/Haskell_IOS-project-headers.hmap -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/include -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/DerivedSources/i386 -I/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Intermediates/Haskell_IOS.build/Debug-iphonesimulator/Haskell_IOS.build/DerivedSources -F/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator -c /Users/ecarrion/Programming/IOS/Haskell_IOS/Haskell_IOS/Haskell_IOS-Prefix.pch -o /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/PrecompiledHeaders/Haskell_IOS-Prefix-dxyzngjbzftjhigrnanfnhzulykt/Haskell_IOS-Prefix.pch.gch
+
+CProcessPCH /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Index/PrecompiledHeaders/Haskell_IOS-Prefix-apihholcxflbmqgixluycvxqipkx_ast/Haskell_IOS-Prefix.pch.pth Haskell_IOS/Haskell_IOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app
+s328773954.868838
+e328773954.877261
+r1
+xTouch
+x/Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Touch /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.appfa7ade42b198b341^e694e042b198b341^---0#0#0#--484"Touch DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app    cd /Users/ecarrion/Programming/IOS/Haskell_IOS    setenv PATH "/Developer/XCode401/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/XCode401/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ecarrion/Programming/IOS/Haskell_IOS/DerivedData/Haskell_IOS-fbrxejachilojcfbofskpqikiskb/Build/Products/Debug-iphonesimulator/Haskell_IOS.app
+
