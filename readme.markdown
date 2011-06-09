@@ -4,7 +4,7 @@ Aplicación demo para ejecutar códico Haskell desde dispositivos mobiles IOS.
 ## Manual de Usuario
 ***
 
-Introducción
+###Introducción
 Este documento describe la instalación y el uso del GHC (Glasgow Haskell Compiler) en dispositivos IOS.
 
 ### Instalación
