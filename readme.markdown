@@ -18,7 +18,7 @@ Este documento describe la instalación y el uso del GHC (Glasgow Haskell Compil
 * Extraer en el directorio raiz "/" el archivo [ghc-iphone.tar.bz](http://projects.haskell.org/ghc-iphone/downloads/ghc-iphone-binary-1.6-sdk-4.2.tar.bz2)
 
 ***
-## Código Haskell
+## Haskell Backend
 
 ###Main.hs
 
@@ -72,43 +72,43 @@ Este documento describe la instalación y el uso del GHC (Glasgow Haskell Compil
 ### En el dispositivo - Desabilitar 'Thumb Mode'
 
 1. Abrir las propiedades del proyecto
-2. En el Target del proyecto seleccionar el tab `Build Settings`
-3. Buscar por 'thumb' y deseleccionar `Compile for thumb`
+2. En el Target del proyecto seleccionar el tab **Build Settings**
+3. Buscar por **thumb** y deseleccionar **Compile for thumb**
 
 ### Añadir Haskell Target
 
-El proyecto de Xcode debe construir automaticamente el proyecto Haskell
+El proyecto de Xcode debe construir automaticamente el proyecto Haskell, previamente se deben haber agregado a la raiz del proyecto el archivo `*.hs` y el archivo `*.cabal`
 
 * Seleccionar File > New > New Target
-* Seleccionar `Other` dentro del grupo  `Mac OSX`
-* Seleccionar `External Build System`
-* Escribir `Haskell` como Product Name (o cualquier normbre de su preferencia)
-* Escribir `/opt/iphone/bin/build-iphone-haskell.s` en el campo 'Build Tool'
-* Establecer el Target `Haskell`como dependencia del proyecto:
+* Seleccionar **Other** dentro del grupo  **Mac OSX**
+* Seleccionar **External Build System**
+* Escribir **Haskell** como Product Name (o cualquier normbre de su preferencia)
+* Escribir **/opt/iphone/bin/build-iphone-haskell.s** en el campo **Build Tool**
+* Establecer el Target **Haskell** como dependencia del proyecto:
 	* Doble click en el Target principal del proyecto
-	* Seleccionar el tab `Build Phases`
-	* Expandir la lista `Target Dependencies` y arrastrar el Targer `Haskell` hacia allí
+	* Seleccionar el tab **Build Phases**
+	* Expandir la lista **Target Dependencies** y arrastrar el Targer **Haskell** hacia allí
 	
 
 ### Construir Haskell Target
 
-Necesitamos compilar primero el Target `Haskell` para poder generar una librería con los fuentes de haskell para poder despues añadirla al proyecto.
+Necesitamos compilar primero el Target **Haskell** para poder generar una librería con los fuentes de haskell para poder despues añadirla al proyecto.
 
-* Seleccionar Product > Build al Target `Haskell`
+* Seleccionar Product > Build al Target **Haskell**
 * Doble click en el panel de errores y revisar que no haya ningún error en los fuentes de haskell. Correguir los errores hasta que no quede ningún error.
-* Es pobable que la compilación del proyecto principal falle, pero lo importante es que el Target `Haskell` compile correctamente.
+* Es pobable que la compilación del proyecto principal falle, pero lo importante es que el Target **Haskell** compile correctamente.
 
 ### Añadir libreria al proyecto
 
-Esto nos va a permitir ejecutar código haskell desde `Objective-C` mediante un wrapper en `C`
+Esto nos va a permitir ejecutar código haskell desde un FrontEnd **Objective-C** mediante un wrapper en **C**
 
 * Doble click en el Target principal del proyecto
-* Seleccionar el tab `Build Phases`
-* Expandir la lista `Link Binary With Libraries`
-* Añadir la librería generada anteriormente en el path definido por Xcode donde se guardan todos los Builds `Build Dir`.
+* Seleccionar el tab **Build Phases**
+* Expandir la lista **Link Binary With Libraries**
+* Añadir la librería generada anteriormente en el path definido por Xcode donde se guardan todos los Builds **Build Dir**
 
 ***
-## Código Objective-C
+## Haskell desde Objective-C
 
 ###main.m
 	
@@ -159,3 +159,37 @@ Esto nos va a permitir ejecutar código haskell desde `Objective-C` mediante un 
     	int o = fac(i);
     	self.output_.text = [NSString stringWithFormat:@"%d", o];
 	}
+	
+***
+## Concluciones
+
+* Lograr la ejecución de código **Haskell** desde **Objective-C** nos ha brindado una verdadera integración de paradigmas en una sola plataforma:
+	* Haskell: Funcional
+	* Objective-C: Orientado a Objetos
+	* C: Imperativo/Estructurado
+		
+* Gracias a la ejecución de código Haskell desde Objective-C hemos podido ampliar nuestro espectro de soluciones en la plataforma IOS, como también podemos mejorar ciertas tareas que tengan una naturaleza funcional, tales como:
+	* Inteligencia Artificial
+	* Diseño de lenguajes de alto nivel
+
+***
+## TODO
+* Ya que el Glasgow Haskell Compiler (GHC) se encarga de convertir código Haskell en **C** debe ser posible poder usar esta librería para ejecutar código Haskell desde dispositivos android usando el NDK (Native development Kit)
+* Al contar Android con una **Scripting layer** es posible ejecutar **código Python** lo cual nos podría permitir usar sus las caracteristicas funcionales de ese lenguaje
+* Investigar sobre posibilidades de ejecutar programas funcionales en los demás sistemas operativos de los smartphones restantes:
+	* BlackBerry OS - RIM
+	* Windows Phone 7 - Microsoft
+	* Symbian - Nokia
+	* Meego - Nokia/Intel
+	
+***
+## Referencias
+
+* [Developing iphone applications in Haskell](http://gergo.erdi.hu/blog/2011-02-13-developing_iphone_applications_in_haskell___a_tutorial/)
+* [Iphone Port of GHC](http://projects.haskell.org/ghc-iphone/downloads/GHC-iPhone.pdf)
+* [A Haskell to Objective-C Binding](http://hoc.sourceforge.net/)
+* [A small Haskell / Objective-C Interface](http://tscheff.blogspot.com/2010/02/small-haskell-objective-c-interface.html)
+* [Using Haskell in an XCode Cocoa Project](http://www.haskell.org/haskellwiki/Using_Haskell_in_an_Xcode_Cocoa_project)
+* [Calling Haskell from C](http://www.haskell.org/haskellwiki/Calling_Haskell_from_C)
+* [Haskell in Industry](http://www.haskell.org/haskellwiki/Haskell_in_industry)
+

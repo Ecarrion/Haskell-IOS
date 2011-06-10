@@ -4,46 +4,23 @@
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <title>Paradigmas de Programación</title>
-  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/bright/style.css" type="text/css" charset="utf-8" media="screen">
-  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/dark/style.css" type="text/css" charset="utf-8" media="screen">
-  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/default/style.css" type="text/css" charset="utf-8" media="screen">
-  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/halloween/style.css" type="text/css" charset="utf-8" media="screen">
-  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/night/style.css" type="text/css" charset="utf-8" media="screen">
-  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/shiny/style.css" type="text/css" charset="utf-8" media="screen">
-  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/default/print.css" type="text/css" charset="utf-8" media="print">
-  <script src="/Applications/TextMate.app/Contents/SharedSupport/Support/script/default.js"    type="text/javascript" charset="utf-8"></script>
-  <script src="/Applications/TextMate.app/Contents/SharedSupport/Support/script/webpreview.js" type="text/javascript" charset="utf-8"></script>
-  <script src="/Applications/TextMate.app/Contents/SharedSupport/Support/script/sortable.js"   type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="./Resources/bright/style.css" type="text/css" charset="utf-8" media="screen">
+  <link rel="stylesheet" href="./Resources/default/style.css" type="text/css" charset="utf-8" media="screen">
+  <link rel="stylesheet" href="./Resources/default/print.css" type="text/css" charset="utf-8" media="print">
   </head>
 <body id="tm_webpreview_body" class="bright">
   <div id="tm_webpreview_header">
-    <img id="gradient" src="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/bright/images/header.png" alt="header">
+    <img id="gradient" src="./Resources/bright/images/header.png" alt="header">
     <p class="headline">Paradigmas de Programación</p>
     <p class="type">readme.markdown</p>
-    <img id="teaser" src="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/bright/images/teaser.png" alt="teaser">
-    <div id="theme_switcher">
-      <form action="#" onsubmit="return false;">
-        <div>
-          Theme:        
-          <select onchange="selectTheme(event);" id="theme_selector">
-            <option value="bright" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/bright">Bright</option>
-            <option value="dark" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/dark">Dark</option>
-            <option value="halloween" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/halloween">Halloween</option>
-            <option value="night" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/night">Night</option>
-            <option value="shiny" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/shiny">Shiny</option>
-          </select>
-        </div>
-        <script type="text/javascript" charset="utf-8">
-          document.getElementById('theme_selector').value = 'bright';
-        </script>
-      </form>
-    </div>
+    <img id="teaser" src="./Resources/bright/images/teaser.png" alt="teaser">
+    
   </div>
   <div id="tm_webpreview_content" class="bright">
-<base href='/Users/ecarrion/Programming/IOS/Haskell_IOS/readme.markdown'>
+
 <h1>Haskell-IOS</h1>
 
-<p>Aplicación demo para ejecutar código Haskell desde dispositivos mobiles IOS</p>
+<p>Aplicación demo para ejecutar códico Haskell desde dispositivos mobiles IOS</p>
 
 <hr />
 
@@ -74,7 +51,7 @@
 
 <hr />
 
-<h2>Código Haskell</h2>
+<h2>Haskell Backend</h2>
 
 <h3>Main.hs</h3>
 
@@ -131,52 +108,52 @@ Executable Haskell_IOS
 
 <ol>
 <li>Abrir las propiedades del proyecto</li>
-<li>En el Target del proyecto seleccionar el tab <code>Build Settings</code></li>
-<li>Buscar por &#8216;thumb&#8217; y deseleccionar <code>Compile for thumb</code></li>
+<li>En el Target del proyecto seleccionar el tab <strong>Build Settings</strong></li>
+<li>Buscar por <strong>thumb</strong> y deseleccionar <strong>Compile for thumb</strong></li>
 </ol>
 
 <h3>Añadir Haskell Target</h3>
 
-<p>El proyecto de Xcode debe construir automaticamente el proyecto Haskell</p>
+<p>El proyecto de Xcode debe construir automaticamente el proyecto Haskell, previamente se deben haber agregado a la raiz del proyecto el archivo <code>*.hs</code> y el archivo <code>*.cabal</code></p>
 
 <ul>
 <li>Seleccionar File > New > New Target</li>
-<li>Seleccionar <code>Other</code> dentro del grupo  <code>Mac OSX</code></li>
-<li>Seleccionar <code>External Build System</code></li>
-<li>Escribir <code>Haskell</code> como Product Name (o cualquier normbre de su preferencia)</li>
-<li>Escribir <code>/opt/iphone/bin/build-iphone-haskell.s</code> en el campo &#8216;Build Tool&#8217;</li>
-<li>Establecer el Target <code>Haskell</code>como dependencia del proyecto:
+<li>Seleccionar <strong>Other</strong> dentro del grupo  <strong>Mac OSX</strong></li>
+<li>Seleccionar <strong>External Build System</strong></li>
+<li>Escribir <strong>Haskell</strong> como Product Name (o cualquier normbre de su preferencia)</li>
+<li>Escribir <strong>/opt/iphone/bin/build-iphone-haskell.s</strong> en el campo <strong>Build Tool</strong></li>
+<li>Establecer el Target <strong>Haskell</strong> como dependencia del proyecto:
 <ul>
 <li>Doble click en el Target principal del proyecto</li>
-<li>Seleccionar el tab <code>Build Phases</code></li>
-<li>Expandir la lista <code>Target Dependencies</code> y arrastrar el Targer <code>Haskell</code> hacia allí</li>
+<li>Seleccionar el tab <strong>Build Phases</strong></li>
+<li>Expandir la lista <strong>Target Dependencies</strong> y arrastrar el Targer <strong>Haskell</strong> hacia allí</li>
 </ul></li>
 </ul>
 
 <h3>Construir Haskell Target</h3>
 
-<p>Necesitamos compilar primero el Target <code>Haskell</code> para poder generar una librería con los fuentes de haskell para poder despues añadirla al proyecto.</p>
+<p>Necesitamos compilar primero el Target <strong>Haskell</strong> para poder generar una librería con los fuentes de haskell para poder despues añadirla al proyecto.</p>
 
 <ul>
-<li id="scroll_to_here" >Seleccionar Product > Build al Target <code>Haskell</code></li>
+<li>Seleccionar Product > Build al Target <strong>Haskell</strong></li>
 <li>Doble click en el panel de errores y revisar que no haya ningún error en los fuentes de haskell. Correguir los errores hasta que no quede ningún error.</li>
-<li>Es pobable que la compilación del proyecto principal falle, pero lo importante es que el Target <code>Haskell</code> compile correctamente.</li>
+<li>Es pobable que la compilación del proyecto principal falle, pero lo importante es que el Target <strong>Haskell</strong> compile correctamente.</li>
 </ul>
 
 <h3>Añadir libreria al proyecto</h3>
 
-<p>Esto nos va a permitir ejecutar código haskell desde <code>Objective-C</code> mediante un wrapper en <code>C</code></p>
+<p>Esto nos va a permitir ejecutar código haskell desde un FrontEnd <strong>Objective-C</strong> mediante un wrapper en <strong>C</strong></p>
 
 <ul>
 <li>Doble click en el Target principal del proyecto</li>
-<li>Seleccionar el tab <code>Build Phases</code></li>
-<li>Expandir la lista <code>Link Binary With Libraries</code></li>
-<li>Añadir la librería generada anteriormente en el path definido por Xcode donde se guardan todos los Builds <code>Build Dir</code>.</li>
+<li>Seleccionar el tab <strong>Build Phases</strong></li>
+<li>Expandir la lista <strong>Link Binary With Libraries</strong></li>
+<li>Añadir la librería generada anteriormente en el path definido por Xcode donde se guardan todos los Builds <strong>Build Dir</strong></li>
 </ul>
 
 <hr />
 
-<h2>Código Objective-C</h2>
+<h2>Haskell desde Objective-C</h2>
 
 <h3>main.m</h3>
 
@@ -215,7 +192,7 @@ extern int fac(int n);
 
 <h3>HaskellViewController.m</h3>
 
-<pre><code>- (IBAction)fibPressed {
+<pre id="scroll_to_here" ><code>- (IBAction)fibPressed {
 
     int i = [self.input_.text intValue];
     int o = fibonacci(i);
@@ -229,6 +206,56 @@ extern int fac(int n);
     self.output_.text = [NSString stringWithFormat:@"%d", o];
 }
 </code></pre>
+
+<hr />
+
+<h2>Concluciones</h2>
+
+<ul>
+<li><p>Lograr la ejecución de código <strong>Haskell</strong> desde <strong>Objective-C</strong> nos ha brindado una verdadera integración de paradigmas en una sola plataforma:</p>
+
+<ul>
+<li>Haskell: Funcional</li>
+<li>Objective-C: Orientado a Objetos</li>
+<li>C: Imperativo/Estructurado</li>
+</ul></li>
+<li><p>Gracias a la ejecución de código Haskell desde Objective-C hemos podido ampliar nuestro espectro de soluciones en la plataforma IOS, como también podemos mejorar ciertas tareas que tengan una naturaleza funcional, tales como:</p>
+
+<ul>
+<li>Inteligencia Artificial</li>
+<li>Diseño de lenguajes de alto nivel</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2>TODO</h2>
+
+<ul>
+<li>Ya que el Glasgow Haskell Compiler (GHC) se encarga de convertir código Haskell en <strong>C</strong> debe ser posible poder usar esta librería para ejecutar código Haskell desde dispositivos android usando el NDK (Native development Kit)</li>
+<li>Al contar Android con una <strong>Scripting layer</strong> es posible ejecutar <strong>código Python</strong> lo cual nos podría permitir usar sus las caracteristicas funcionales de ese lenguaje</li>
+<li>Investigar sobre posibilidades de ejecutar programas funcionales en los demás sistemas operativos de los smartphones restantes:
+<ul>
+<li>BlackBerry OS - RIM</li>
+<li>Windows Phone 7 - Microsoft</li>
+<li>Symbian - Nokia</li>
+<li>Meego - Nokia/Intel</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2>Referencias</h2>
+
+<ul>
+<li><a href="http://gergo.erdi.hu/blog/2011-02-13-developing_iphone_applications_in_haskell___a_tutorial/">Developing iphone applications in Haskell</a></li>
+<li><a href="http://projects.haskell.org/ghc-iphone/downloads/GHC-iPhone.pdf">Iphone Port of GHC</a></li>
+<li><a href="http://hoc.sourceforge.net/">A Haskell to Objective-C Binding</a></li>
+<li><a href="http://tscheff.blogspot.com/2010/02/small-haskell-objective-c-interface.html">A small Haskell / Objective-C Interface</a></li>
+<li><a href="http://www.haskell.org/haskellwiki/Using_Haskell_in_an_Xcode_Cocoa_project">Using Haskell in an XCode Cocoa Project</a></li>
+<li><a href="http://www.haskell.org/haskellwiki/Calling_Haskell_from_C">Calling Haskell from C</a></li>
+<li><a href="http://www.haskell.org/haskellwiki/Haskell_in_industry">Haskell in Industry</a></li>
+</ul>
 
 <script>window.location.hash = "scroll_to_here";</script>
 	</div>
