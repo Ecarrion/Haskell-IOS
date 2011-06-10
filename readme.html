@@ -1,0 +1,236 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Paradigmas de Programación</title>
+  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/bright/style.css" type="text/css" charset="utf-8" media="screen">
+  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/dark/style.css" type="text/css" charset="utf-8" media="screen">
+  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/default/style.css" type="text/css" charset="utf-8" media="screen">
+  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/halloween/style.css" type="text/css" charset="utf-8" media="screen">
+  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/night/style.css" type="text/css" charset="utf-8" media="screen">
+  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/shiny/style.css" type="text/css" charset="utf-8" media="screen">
+  <link rel="stylesheet" href="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/default/print.css" type="text/css" charset="utf-8" media="print">
+  <script src="/Applications/TextMate.app/Contents/SharedSupport/Support/script/default.js"    type="text/javascript" charset="utf-8"></script>
+  <script src="/Applications/TextMate.app/Contents/SharedSupport/Support/script/webpreview.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/Applications/TextMate.app/Contents/SharedSupport/Support/script/sortable.js"   type="text/javascript" charset="utf-8"></script>
+  </head>
+<body id="tm_webpreview_body" class="bright">
+  <div id="tm_webpreview_header">
+    <img id="gradient" src="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/bright/images/header.png" alt="header">
+    <p class="headline">Paradigmas de Programación</p>
+    <p class="type">readme.markdown</p>
+    <img id="teaser" src="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/bright/images/teaser.png" alt="teaser">
+    <div id="theme_switcher">
+      <form action="#" onsubmit="return false;">
+        <div>
+          Theme:        
+          <select onchange="selectTheme(event);" id="theme_selector">
+            <option value="bright" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/bright">Bright</option>
+            <option value="dark" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/dark">Dark</option>
+            <option value="halloween" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/halloween">Halloween</option>
+            <option value="night" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/night">Night</option>
+            <option value="shiny" title="/Applications/TextMate.app/Contents/SharedSupport/Support/themes/shiny">Shiny</option>
+          </select>
+        </div>
+        <script type="text/javascript" charset="utf-8">
+          document.getElementById('theme_selector').value = 'bright';
+        </script>
+      </form>
+    </div>
+  </div>
+  <div id="tm_webpreview_content" class="bright">
+<base href='/Users/ecarrion/Programming/IOS/Haskell_IOS/readme.markdown'>
+<h1>Haskell-IOS</h1>
+
+<p>Aplicación demo para ejecutar código Haskell desde dispositivos mobiles IOS</p>
+
+<hr />
+
+<h2>Integrantes</h2>
+
+<ul>
+<li>Ernesto Manuel Carrión Chumpitaz</li>
+<li>Alejandro Aristizabal Londoño</li>
+<li>Daniel Munera Sanchez</li>
+</ul>
+
+<h2>Profesor</h2>
+
+<ul>
+<li>Francisco Jose Correa Zabala</li>
+</ul>
+
+<h2>Introducción</h2>
+
+<p>Este documento describe la instalación y el uso del GHC (Glasgow Haskell Compiler) en dispositivos IOS</p>
+
+<h2>Instalación</h2>
+
+<ul>
+<li>Descargar e instalar <a href="http://haskell.org/ghc/">GHC standar</a></li>
+<li>Extraer en el directorio raiz &#8220;/&#8221; el archivo <a href="http://projects.haskell.org/ghc-iphone/downloads/ghc-iphone-binary-1.6-sdk-4.2.tar.bz2">ghc-iphone.tar.bz</a></li>
+</ul>
+
+<hr />
+
+<h2>Código Haskell</h2>
+
+<h3>Main.hs</h3>
+
+<pre><code>{-# LANGUAGE ForeignFunctionInterface, EmptyDataDecls #-}
+
+import Foreign.C.Types
+
+foreign import ccall safe "openWindow" openWindow 
+    :: IO CInt
+
+foreign export ccall "fibonacci" fibonacci 
+    :: Int -&gt; Int
+
+foreign export ccall "fac" fac 
+    :: Int -&gt; Int
+
+fibonacci :: Int -&gt; Int
+fibonacci n = fibs !! n
+    where fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
+
+fac :: Int -&gt; Int
+fac 0 = 1
+fac n | n &gt; 0 = n * fac (n-1)
+
+main = do
+    openWindow
+    return ()
+</code></pre>
+
+<h3>Haskel_IOS.cabal</h3>
+
+<pre><code>Name: HaskellIOS
+Version: 0.1
+Synopsis: iPhone app in haskell
+Description: iPhone app in haskell
+Build-type: Simple
+Cabal-Version: &gt;= 1.6
+
+Executable Haskell_IOS
+    Main-Is: Main.hs
+    Frameworks:
+        Foundation
+        UIKit
+        CoreGraphics
+    Build-Depends:
+        base &gt;= 4
+</code></pre>
+
+<hr />
+
+<h2>Configuración XCode</h2>
+
+<h3>En el dispositivo - Desabilitar &#8216;Thumb Mode&#8217;</h3>
+
+<ol>
+<li>Abrir las propiedades del proyecto</li>
+<li>En el Target del proyecto seleccionar el tab <code>Build Settings</code></li>
+<li>Buscar por &#8216;thumb&#8217; y deseleccionar <code>Compile for thumb</code></li>
+</ol>
+
+<h3>Añadir Haskell Target</h3>
+
+<p>El proyecto de Xcode debe construir automaticamente el proyecto Haskell</p>
+
+<ul>
+<li>Seleccionar File > New > New Target</li>
+<li>Seleccionar <code>Other</code> dentro del grupo  <code>Mac OSX</code></li>
+<li>Seleccionar <code>External Build System</code></li>
+<li>Escribir <code>Haskell</code> como Product Name (o cualquier normbre de su preferencia)</li>
+<li>Escribir <code>/opt/iphone/bin/build-iphone-haskell.s</code> en el campo &#8216;Build Tool&#8217;</li>
+<li>Establecer el Target <code>Haskell</code>como dependencia del proyecto:
+<ul>
+<li>Doble click en el Target principal del proyecto</li>
+<li>Seleccionar el tab <code>Build Phases</code></li>
+<li>Expandir la lista <code>Target Dependencies</code> y arrastrar el Targer <code>Haskell</code> hacia allí</li>
+</ul></li>
+</ul>
+
+<h3>Construir Haskell Target</h3>
+
+<p>Necesitamos compilar primero el Target <code>Haskell</code> para poder generar una librería con los fuentes de haskell para poder despues añadirla al proyecto.</p>
+
+<ul>
+<li id="scroll_to_here" >Seleccionar Product > Build al Target <code>Haskell</code></li>
+<li>Doble click en el panel de errores y revisar que no haya ningún error en los fuentes de haskell. Correguir los errores hasta que no quede ningún error.</li>
+<li>Es pobable que la compilación del proyecto principal falle, pero lo importante es que el Target <code>Haskell</code> compile correctamente.</li>
+</ul>
+
+<h3>Añadir libreria al proyecto</h3>
+
+<p>Esto nos va a permitir ejecutar código haskell desde <code>Objective-C</code> mediante un wrapper en <code>C</code></p>
+
+<ul>
+<li>Doble click en el Target principal del proyecto</li>
+<li>Seleccionar el tab <code>Build Phases</code></li>
+<li>Expandir la lista <code>Link Binary With Libraries</code></li>
+<li>Añadir la librería generada anteriormente en el path definido por Xcode donde se guardan todos los Builds <code>Build Dir</code>.</li>
+</ul>
+
+<hr />
+
+<h2>Código Objective-C</h2>
+
+<h3>main.m</h3>
+
+<pre><code>#import &lt;UIKit/UIKit.h&gt;
+
+extern int Haskell_main(int argc, char* argv[]);
+
+int main(int argc, char *argv[])
+{
+    Haskell_main(argc, argv);
+}
+
+int doMain(int argc, char *argv[]) {
+
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    int retVal = UIApplicationMain(argc, argv, nil, nil);
+    [pool release];
+    return retVal;
+}
+
+int openWindow(void);
+
+int openWindow() {
+    static char* args[2];
+    args[0] = "dummy";
+    args[1] = NULL;
+    return doMain(1, args);
+}
+</code></pre>
+
+<h3>HaskellViewController.m</h3>
+
+<pre><code>extern int fibonacci(int a1);
+extern int fac(int n);
+</code></pre>
+
+<h3>HaskellViewController.m</h3>
+
+<pre><code>- (IBAction)fibPressed {
+
+    int i = [self.input_.text intValue];
+    int o = fibonacci(i);
+    self.output_.text = [NSString stringWithFormat:@"%d", o];
+}
+
+- (IBAction)facPressed {
+
+    int i = [self.input_.text intValue];
+    int o = fac(i);
+    self.output_.text = [NSString stringWithFormat:@"%d", o];
+}
+</code></pre>
+
+<script>window.location.hash = "scroll_to_here";</script>
+	</div>
+</body>
+</html>
